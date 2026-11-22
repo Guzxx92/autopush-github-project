@@ -1,4 +1,4 @@
-### Auto Push & Release Script (GitHub)
+#### Auto Push & Release Script (GitHub)
 
 Skrip Bash (`deploy.sh`) untuk mengotomatiskan proses *push* kode ke repositori GitHub, manajemen *tag* versi, hingga pembuatan GitHub Release secara langsung menggunakan Personal Access Token.
 
@@ -39,10 +39,4 @@ REPO_URL="https://github.com/Guzxx92/Anby-MD.git"
    ```
 4. Masukkan **GitHub Token** saat diminta pada terminal (teks tidak akan muncul di layar demi keamanan), lalu tekan **Enter**.
 
-## Alur Kerja Skrip
-1. Memvalidasi argumen versi dan input token.
-2. Membuat skrip kredensial sementara (`ASKPASS`) yang otomatis terhapus saat proses selesai (`trap`).
-3. Menyiapkan konfigurasi Git lokal dan menghubungkannya ke `REPO_URL`.
-4. Mengecek dan menghapus *tag* atau *release* lama dengan versi yang sama.
-5. Melakukan `git add`, `git commit`, dan sinkronisasi dengan *branch* `main` di GitHub.
-6. Mengunggah kode (*push*), membuat *tag* versi baru, dan menerbitkan GitHub Release.
+nskskx kaksnns skkxncjahahos skoskamsn jsjsnnsn jajan semoga berguna jsjsnzn jsjnzns osas.
