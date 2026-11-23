@@ -20,7 +20,7 @@ Skrip Bash (`deploy.sh`) untuk mengotomatiskan proses *push* kode ke repositori 
 Sebelum menjalankan skrip, sesuaikan variabel di bagian atas file `deploy.sh`:
 ```bash
 BRANCH="main" #sesuai selera
-REPO_URL="https://github.com/Guzxx92/Anby-MD.git"
+REPO_URL="https://github.com/Guzxx92/Anby-MD.git" #ubah jadi project mu
 ```
 
 ## Cara Penggunaan
