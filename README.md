@@ -3,27 +3,27 @@
 
 Skrip Bash (`deploy.sh`) untuk mengotomatiskan proses *push* kode ke repositori GitHub, manajemen *tag* versi, hingga pembuatan GitHub Release secara langsung menggunakan Personal Access Token.
 
-## Fitur Utama
+### Fitur Utama
 * **Inisialisasi Otomatis**: Mengatur `git init`, *branch* (`main`), dan *remote origin* secara otomatis jika folder belum terhubung dengan Git.
 * **Autentikasi Aman**: Meminta GitHub Token secara tersembunyi dan menggunakan variabel `GIT_ASKPASS` sementara yang langsung dihapus setelah skrip selesai dijalankan.
 * **Sinkronisasi Repositori**: Melakukan `git pull --rebase` atau *merge* otomatis agar perubahan lokal tetap sinkron dengan *remote* tanpa konflik riwayat.
 * **Overwrite Tag & Release**: Menghapus *tag* lokal, *tag* remote, dan GitHub Release lama jika menggunakan nomor versi yang sama, lalu menggantinya dengan yang baru.
 
-## Prasyarat
+### Prasyarat
 * **Git** sudah terinstal di sistem.
 * **GitHub CLI (`gh`)** *(Opsional)*: Diperlukan jika ingin skrip otomatis membuat halaman **GitHub Release** di repositori.
 * **GitHub Personal Access Token**:
   * **Classic Token**: Centang izin `repo`.
   * **Fine-grained Token**: Berikan akses *Read and write* pada bagian **Contents**.
 
-## Konfigurasi
+### Konfigurasi
 Sebelum menjalankan skrip, sesuaikan variabel di bagian atas file `deploy.sh`:
 ```bash
 BRANCH="main" #sesuai selera
 REPO_URL="https://github.com/Guzxx92/Anby-MD.git" #ubah jadi project mu
 ```
 
-## Cara Penggunaan
+### Cara Penggunaan
 
 1. Simpan kode skrip dengan nama `deploy.sh` di dalam folder utama proyek.
 2. Berikan izin eksekusi pada file:
