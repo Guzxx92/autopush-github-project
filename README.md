@@ -1,7 +1,7 @@
 ![CROWRICK](crow-tech.jpeg)
 #### Auto Push & Release Script (GitHub)
 
-Skrip Bash (`deploy.sh`) untuk mengotomatiskan proses *push* kode ke repositori GitHub, manajemen *tag* versi, hingga pembuatan GitHub Release secara langsung menggunakan Personal Access Token.
+Skrip Bash (`deploy.sh`) untuk mengotomatiskan proses *push* kode ke repositori GitHub, manajemen *tag* versi, hingga pembuatan GitHub Release secara langsung menggunakan Personal Access Token (Github token).
 
 ### Fitur Utama
 * **Inisialisasi Otomatis**: Mengatur `git init`, *branch* (`main`), dan *remote origin* secara otomatis jika folder belum terhubung dengan Git.
